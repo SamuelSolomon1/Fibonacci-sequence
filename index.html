@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Series</title>
+</head>
+<body>
+    <h1>Write a program to generate the Fibonacci series<br>
+        and print it to the console.<br>
+        Print the series using for Loop</h1><br>
+        </p>
+    <script>
+let fibonacci = [0, 1]; // set initial conditions
+for (let i = 2; i < 15; ++i) { //inputs 15 numbers, 
+    //just change the 15 to your desired value to 
+    //generate different number of fibonnaci numbers
+    
+    // add the two previous elements to get the current element
+    fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+}
+console.log(fibonacci); //prints fibonacci numbers
+    </script>
+</body>
+</html>
